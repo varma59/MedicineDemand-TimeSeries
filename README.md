@@ -44,3 +44,10 @@ A screenshot for the flow:
 Deployed Model Endpoint URL: [Link](http://c692c678-bd90-41d8-ac5f-5d1d140d196e.centralindia.azurecontainer.io/score)
 
 Deployed App URL: [Link](https://apps.powerapps.com/play/e/cf46801e-aa6d-4a32-a161-692e900c34cc/a/6f7695e5-11d7-4fa1-96e9-bd0aae6bd6f7?tenantId=84c31ca0-ac3b-4eae-ad11-519d80233e6f)
+
+# Medicine Demand Healthbox
+## Healthbox Version 1.0.0
+This model specifically deals with prediction of demand based on a particular dataset. It works on the basis of timeseries where appropriate features are extracted to get the best type of model then a xgboost training model.
+
+<br>
+![Healthbox](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/homehealthbx.png?raw=true)
