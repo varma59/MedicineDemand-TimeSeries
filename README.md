@@ -1,7 +1,30 @@
 # Medicine Demand Prediction and Health Expense Prediction & Planning
-## Medicine Demand Prediction
-### This notebook uses time series and generates required features.
-The aim of the project is to use a suitable model to predict medicine demand.
+
+## Medicine Demand Healthbox
+This model specifically deals with prediction of demand based on a particular dataset. It works on the basis of timeseries where appropriate features are extracted to get the best type of model then a xgboost training model.
+<br>
+Link to the website: https://healthbox.azurewebsites.net/
+<br>
+Link to the base repository: https://github.com/tiprock-network/MedicineDemand-TimeSeries/tree/healthbox
+<br>
+The notebook that build up the data story of the model: https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/healthbox/demand-timeseries.ipynb
+
+<br>
+
+![](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/homehealthbx.png?raw=true)
+
+### Below is a clear illustration of the process of using the website for prediction.
+
+Access the website, choose your type of commodity demand and then finally get a prediction.
+![Prediction](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/prediction.png?raw=true) | ![Input](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/entry.png?raw=true)
+
+### Healthbox Tools Used
+
+* VS Code
+* Azure Web Apps
+
+### Recommendation
+This project is especially essential for pharmaceutical companies and local hospitals in that it helps them make medicine more accessible by determining future demand hence saving time in procument of medicine.
 
 ## Health Expense Prediction & Planning
 This app allows the user to predict their Health Expense using a Machine Learning Model and then get a detailed personalized plan to save funds for it.
@@ -44,30 +67,3 @@ A screenshot for the flow:
 Deployed Model Endpoint URL: [Link](http://c692c678-bd90-41d8-ac5f-5d1d140d196e.centralindia.azurecontainer.io/score)
 
 Deployed App URL: [Link](https://apps.powerapps.com/play/e/cf46801e-aa6d-4a32-a161-692e900c34cc/a/6f7695e5-11d7-4fa1-96e9-bd0aae6bd6f7?tenantId=84c31ca0-ac3b-4eae-ad11-519d80233e6f)
-
-# Medicine Demand Healthbox
-## Healthbox Version 1.0.0
-This model specifically deals with prediction of demand based on a particular dataset. It works on the basis of timeseries where appropriate features are extracted to get the best type of model then a xgboost training model.
-<br>
-Link to the website: https://healthbox.azurewebsites.net/
-<br>
-Link to the base repository: https://github.com/tiprock-network/MedicineDemand-TimeSeries/tree/healthbox
-<br>
-The notebook that build up the data story of the model: https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/healthbox/demand-timeseries.ipynb
-
-<br>
-
-![](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/homehealthbx.png?raw=true)
-
-### Below is a clear illustration of the process of using the website for prediction.
-
-Access the website, choose your type of commodity demand and then finally get a prediction.
-![Prediction](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/prediction.png?raw=true) | ![Input](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/entry.png?raw=true)
-
-### Healthbox Tools Used
-
-* VS Code
-* Azure Web Apps
-
-### Recommendation
-This project is especially essential for pharmaceutical companies and local hospitals in that it helps them make medicine more accessible by determining future demand hence saving time in procument of medicine.
