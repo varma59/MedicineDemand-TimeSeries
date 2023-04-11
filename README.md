@@ -50,4 +50,5 @@ Deployed App URL: [Link](https://apps.powerapps.com/play/e/cf46801e-aa6d-4a32-a1
 This model specifically deals with prediction of demand based on a particular dataset. It works on the basis of timeseries where appropriate features are extracted to get the best type of model then a xgboost training model.
 
 <br>
-![Healthbox]('https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/homehealthbx.png?raw=true')
+
+![](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/homehealthbx.png?raw=true)
