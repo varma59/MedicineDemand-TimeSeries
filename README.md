@@ -50,6 +50,8 @@ Deployed App URL: [Link](https://apps.powerapps.com/play/e/cf46801e-aa6d-4a32-a1
 This model specifically deals with prediction of demand based on a particular dataset. It works on the basis of timeseries where appropriate features are extracted to get the best type of model then a xgboost training model.
 <br>
 Link to the website: https://healthbox.azurewebsites.net/
+Link to the base repository: https://github.com/tiprock-network/MedicineDemand-TimeSeries/tree/healthbox
+The notebook that build up the data story of the model: https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/healthbox/demand-timeseries.ipynb
 
 <br>
 
@@ -59,3 +61,11 @@ Link to the website: https://healthbox.azurewebsites.net/
 
 Access the website, choose your type of commodity demand and then finally get a prediction.
 ![Prediction](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/prediction.png?raw=true) | ![Input](https://github.com/tiprock-network/MedicineDemand-TimeSeries/blob/main/assets/entry.png?raw=true)
+
+### Healthbox Tools Used
+
+* VS Code
+* Azure Web Apps
+
+### Recommendation
+This project is especially essential for pharmaceutical companies and local hospitals in that it helps them make medicine more accessible by determining future demand hence saving time in procument of medicine.
